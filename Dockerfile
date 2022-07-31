@@ -15,4 +15,4 @@ COPY --from=0 "/go/src/app/hello-world" hello-world
 
 ENTRYPOINT ./hello-world 
 
-
+ 
