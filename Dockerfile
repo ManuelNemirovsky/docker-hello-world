@@ -13,6 +13,6 @@ LABEL org.opencontainers.image.source="https://github.com/ManuelNemirovsky/docke
 
 COPY --from=0 "/go/src/app/hello-world" hello-world
 
-ENTRYPOINT ./hello-world
+ENTRYPOINT ./hello-world 
 
 
